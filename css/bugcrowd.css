@@ -1,0 +1,13 @@
+.bc-reward {
+    color: var(--color-fg-text-positive);
+    font-weight: 500;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.bc-stat>.bc-stat__fig {
+    display: inline-block;
+    font-size: 112.5%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
