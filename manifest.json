@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "BugCrowdBlurMoney",
+    "name": "bounty blur",
     "description": "Author: @n",
-    "version": "0.1",
+    "version": "0.2",
 
     "icons": {
       "48": "icon.png"
@@ -11,7 +11,7 @@
 
     "content_scripts": [
       {
-        "matches": ["https://*.bugcrowd.com/*"],
+        "matches": ["https://*.bugcrowd.com/*","https://*.hackerone.com/*"],
         "js": ["blurify.js"],
         "css": ["css/bugcrowd.css"]
       }

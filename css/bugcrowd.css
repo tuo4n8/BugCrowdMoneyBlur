@@ -11,3 +11,11 @@
     filter: blur(10px);
     -webkit-filter: blur(10px);
 }
+
+.spec-amount-in-currency span {
+    filter: blur(10px);
+  }
+
+.spec-hacktivity-item-bounty{
+    filter: blur(10px);
+}
