@@ -19,3 +19,7 @@
 .spec-hacktivity-item-bounty{
     filter: blur(10px);
 }
+
+#content > div.cc-100vh-container > main > div > section > div > div.tk-sidebar.col-md-3 > div:nth-child(1) > div > p:nth-child(1){
+    filter: blur(10px);
+}

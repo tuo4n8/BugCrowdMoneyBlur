@@ -7,6 +7,8 @@ spans = document.querySelectorAll('.spec-amount-in-currency span');
 
 strongs = document.querySelectorAll('.spec-hacktivity-item-bounty');
 
+totals_bugcrowd = document.querySelectorAll('#content > div.cc-100vh-container > main > div > section > div > div.tk-sidebar.col-md-3 > div:nth-child(1) > div > p:nth-child(1)')
+
 payments.forEach(payment =>{
 	// fake money
 	// payment.innerHTML = "$1"
@@ -14,6 +16,13 @@ payments.forEach(payment =>{
 	payment.style.filter = "blur(0px)"
 })
 
+
+totals_bugcrowd.forEach(total =>{
+	// fake money
+	// payment.innerHTML = "$1"
+	
+	total.style.filter = "blur(0px)"
+})
 
 payments1.forEach(payment =>{
 	// fake money
