@@ -1,3 +1,4 @@
+/*bugcrowd*/
 .bc-reward {
     color: var(--color-fg-text-positive);
     font-weight: 500;
@@ -12,6 +13,13 @@
     -webkit-filter: blur(10px);
 }
 
+.bc-panel__main strong,
+.bc-panel__main small {
+    filter: blur(10px);
+}
+
+
+/*hackerone*/
 .spec-amount-in-currency span {
     filter: blur(10px);
   }
@@ -21,5 +29,13 @@
 }
 
 #content > div.cc-100vh-container > main > div > section > div > div.tk-sidebar.col-md-3 > div:nth-child(1) > div > p:nth-child(1){
+    filter: blur(10px);
+}
+
+.spec-user-payouts{
+    filter: blur(10px);
+}
+
+.card__content h4:nth-child(2) {
     filter: blur(10px);
 }
